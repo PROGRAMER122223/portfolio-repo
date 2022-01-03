@@ -38,5 +38,5 @@ The following animation shows the web application's appearance and functionality
 
 
 
-* The URL of deployed application:
-* The URL of github repository:
+* The URL of deployed application:https://programer122223.github.io/portfolio-repo/
+* The URL of github repository:https://github.com/PROGRAMER122223/portfolio-repo.git
