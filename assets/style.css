@@ -208,8 +208,8 @@ aside {
       height:100px;
     
       max-width: 100%;
-      object-fit:cover;
-      background-size:cover;
+      /*object-fit:cover;
+      background-size:cover;*/
       padding:3px;
       margin-bottom:1.5rem;
       transition:1s;
@@ -217,7 +217,7 @@ aside {
      .workimage{
        height:125px;
        width:100%; 
-       object-fit:fill;
+       object-fit:contain;
        object-position: top;
        padding:2px;
        border:1px 1px;
@@ -233,7 +233,7 @@ aside {
      #workimage{
        height:350px;
        width:100%;
-      object-fit:cover;
+      object-fit:contain;
       border:1px 1px;
       
      }
@@ -276,6 +276,10 @@ aside {
     font-size: 33px;
     margin-top:95px;
   }
+
+  h2{
+    font-size: 200%;
+  }
   #wrapper::before{
     height:20%;
   }  
@@ -303,17 +307,22 @@ aside {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .p{
+    line-height: 1.5rem;
+    font-size: 16px;
+  }
+
   .subtitle{
     color:rgb(124, 201, 143);
     font-size: 25px;
-    margin-top:65px;
+    margin-top:45px;
   }
   #wrapper::before{
-    height:14%;
+    height:10%;
   }  
    
   h2{
-    font-size: 130%;
+    font-size: 100%;
   }
   #navbar {
   background-color: #78cf95;
