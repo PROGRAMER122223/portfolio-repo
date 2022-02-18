@@ -194,6 +194,7 @@ aside {
     border:3px solid rgb(178, 231, 178);
     width:400px;
     margin:10px;
+    background-color:azure;
      }
     .card{
     position:relative;
@@ -201,6 +202,7 @@ aside {
     /*height:140px;*/
     width:48%;
     margin:5px;
+    background-color:azure;
 }
      .image{
       position:relative;
