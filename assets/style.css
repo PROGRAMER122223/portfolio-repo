@@ -138,8 +138,8 @@ aside {
    flex: 0 0 20%;
    background-color:azure;
    text-align: right;   
-   color:rgb(155, 207, 155);
-   border-right:5px solid #7ab5c7;
+   color: var(--primary-color);
+   border-right:1px solid var(--secondary-color);
    margin-top:1%;
  
 }
