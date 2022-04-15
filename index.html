@@ -7,6 +7,7 @@
     <title>portfolio</title>
     
     <!--Link to css file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/reset.css">
 
     <link rel="stylesheet" href="assets/style.css">
@@ -15,8 +16,8 @@
 
 <body>
           
-      <nav id="navbar">
-        <h1><span></span><span>Prathibha </span><span>V</span>adakkini <span>P</span>urakkal</h1>
+    <nav class="navbar" id="navbar">
+        <h1 class="name"><span></span><span>Prathibha </span><span>V</span>adakkini <span>P</span>urakkal</h1>
         <ul>
           <li class="item"target="_blank"><a href="#aboutme">About Me</a></li>
           <li class="item"target="_blank"><a href="#work">Work</a></li>
@@ -50,10 +51,10 @@
     
       
     <!--- paragraph----->
-     <div class='p'>
-        <p>Hi, I'm a computer science graduate in software systems, looking to start as a full stack web developer.</p>
-        <p>Currently I'm based in Connecticut, US looking forward to a great opportunity to show my skills.
-          At present, pursuing a certification in BootCampSpot from the University of New Hampshire. </p>
+     <div class="p">
+        <p><b>Hi</b>, I'm a computer science graduate in software systems, looking to start as a full stack web developer.</p>
+        <p>Currently I'm based in Connecticut, USA, looking forward to a great opportunity to show my skills.</p>
+         <p> At present, pursuing a certification in BootCampSpot from the University of New Hampshire. </p>
         <p>I have a deep desire to excel and continuously improve in my work. Learn more about my journey below.</p>
        
         <br>
@@ -61,102 +62,141 @@
   </section>
   </div>  
   <br>
-
-  <section class="work" id="work">
+<div>
+       <section class="work" id="work">
       
-      <aside class="aside">
+          <aside class="aside">
                 <h2>Work</h2> 
           
-      </aside>
+          </aside>
          
        
-      <div id="work-container" class="work-container">
-          
-                  <div class="card" id="card">
-                       <div id="image">
-                          <img src="./assets/pic5.png" alt="screenshot of app" id="workimage" />
-                                             
-                         <div class="bottom-left">
-                              <h3>Orlando Magic Fan Hub</h3>
-                              <a href="https://admakinh.github.io/magic-fan-dashboard/">READ MORE</a>
-                         </div>
-                       </div>             
-                                                                     
-                    
+       <div class="container-fluid">
+
+             <div class="card"  style="width: 15rem;">
+                 <img class="card-img-top" style="height: 10rem;" src="./assets/pic5.png" alt="Card image magic-fan">
+                  <div class="card-body">
+                     <h5 class="card-title">Orlando Magic Fan Hub</h5>
+                     <a href="https://admakinh.github.io/magic-fan-dashboard/" class="btn btn-primary-sm">Github</a>
+                     <a href="https://github.com/admakinh/magic-fan-dashboard.git" class="btn btn-primary-sm">Github-repo</a>
                   </div>
-                    
-
-                <div class="card">
-                     
-                   <div class="image">
-                           <img src="./assets/img2.jpg" alt="image of Quiz-game-repo" class="workimage" />
-                      
-                      <div class="bottom-left">
-                         <h3>Quiz-game</h3>
-                         <a href="https://programer122223.github.io/Quiz-game-repo/">READ MORE</a>
-                      </div>
-                                                      
-                    </div>
-                      
-                                     
-                  </div>
+             </div>   
 
 
-                  <div class="card">
-                       <div class="image">
-                               <img src="./assets/pic4.jpg" alt="image of Weather-Dashboard" class="workimage" />
-                                <div class="bottom-left">
-                                       <h3>Weather-Dashboard</h3>
-                                       <a href="https://programer122223.github.io/Weather-Dashboard-repo/">READ MORE</a>
-                                </div>
-               
-                              
-                        </div>
-                    
-                  </div>
 
-                <div class="card">
-                        <div class="image">
-                            <img src="./assets/img2.png" alt="image of Work-day-Scheduler" class="workimage" />
-                
-                           <div class="bottom-left">
-                                <h3>Work-day-Scheduler</h3>
-                                <a href="https://programer122223.github.io/Work-day-Scheduler/">READ MORE</a>
-                            </div>
-                  
-                         </div>
-                 </div>        
-
-
-                  <div class="card">
-                          <div class="image">
-                              <img src="./assets/img5.jpg" alt="image of generate-password" class="workimage" />
-               
-                              <div class="bottom-left">
-                                  <h3>Generate-password</h3>
-                                  <a href="https://programer122223.github.io/generate-password-repo/">READ MORE</a>
-                             </div>
-            
+              <div class="card" style="width: 15rem;">
+                 <img class="card-img-top"  style="height: 10rem;" src="./assets/img2.jpg" alt="image of Quiz-game-repo" alt="Card image quiz">
+                  <div class="card-body">
+                     <h5 class="card-title">Quiz-game</h5>
               
-                           </div>
-                             
-                              
-                   </div>
-
+                     <a href="https://programer122223.github.io/Quiz-game-repo/" class="btn btn-primary-sm">Github</a>
+                     <a href="https://github.com/PROGRAMER122223/Quiz-game-repo.git" class="btn btn-primary-sm">Github-repo</a>
+                  </div>
+             </div>   
   
+
+
+
+              <div class="card" style="width: 15rem;">
+                <img class="card-img-top"  style="height: 10rem;" src="./assets/pic4.jpg" alt="image of Quiz-game-repo" alt="Card image weather">
+                  <div class="card-body">
+                    <h5 class="card-title">Weather-Dashboard</h5>
+               
+                    <a href="https://programer122223.github.io/Weather-Dashboard-repo/" class="btn btn-primary-sm">Github</a>
+                    <a href="https://github.com/PROGRAMER122223/Weather-Dashboard-repo.git" class="btn btn-primary-sm">Github-repo</a>
+                 </div>
+              </div>   
+    
+
+              <div class="card" style="width: 15rem;">
+                <img class="card-img-top"  style="height: 10rem;" src="./assets/img2.png" alt="image of Quiz-game-repo" alt="Card image work">
+                  <div class="card-body">
+                     <h5 class="card-title">Work-day-Scheduler</h5>
+                     <a href="https://programer122223.github.io/Work-day-Scheduler/" class="btn btn-primary-sm">Github</a>
+                     <a href="https://github.com/PROGRAMER122223/Work-day-Scheduler.git" class="btn btn-primary-sm">Github-repo</a>
+                  </div>
+              </div>   
+
+
+              <div class="card" style="width: 15rem;">
+                 <img class="card-img-top" style="height: 10rem;"  src="./assets/img5.jpg" alt="image of Quiz-game-repo" alt="Card image password">
+                  <div class="card-body">
+                    <h5 class="card-title">Generate-password</h5>
+                    
+                    <a href="https://programer122223.github.io/generate-password-repo/" class="btn btn-primary-sm">Github</a>
+                    <a href="https://github.com/PROGRAMER122223/generate-password-repo.git" class="btn btn-primary-sm">Github-repo</a>
+                  </div>
+              </div>   
+
+              <div class="card" style="width: 15rem;">
+                <img class="card-img-top"  style="height: 10rem;" src="./assets/project2.png" alt="image of Quiz-game-repo" alt="Card image project2">
+                 <div class="card-body">
+                   <h5 class="card-title">Group-Project-2</h5>
+                   
+                   <a href="https://github.com/robertschwartz603/Project-2" class="btn btn-primary-sm">Github</a>
+                   <a href="https://radiant-tundra-47110.herokuapp.com/" class="btn btn-primary-sm">Heroku link</a>
+                 </div>
+             </div>   
+
+
+             <div class="card" style="width: 15rem;">
+              <img class="card-img-top"  style="height: 10rem;" src="./assets/notetaker.jpg" alt="image of Quiz-game-repo" alt="Card image notetaker">
+               <div class="card-body">
+                 <h5 class="card-title">Note-Taker-Repo</h5>
+                 
+                 <a href="https://github.com/PROGRAMER122223/Note-Taker-Repo" class="btn btn-primary-sm">Github</a>
+                 <a href="https://note1-taker1-app.herokuapp.com/" class="btn btn-primary-sm">Heroku link</a>
+               </div>
+           </div>   
+
+
+           <div class="card" style="width: 15rem;">
+            <img class="card-img-top"  style="height: 6rem;" src="./assets/Employee-Tracking.webp" alt="image of Quiz-game-repo" alt="Card image employee">
+             <div class="card-body">
+               <h5 class="card-title">Employee-tracker-system</h5>
+               
+               <a href="https://watch.screencastify.com/v/dI9EhJDnWZwdqbbm9i18" class="btn btn-primary-sm">Screencastify</a>
+               <a href="https://github.com/PROGRAMER122223/Employee-tracker-System" class="btn btn-primary-sm">Github</a>
+             </div>
+         </div>   
+
+
+         <div class="card" style="width: 15rem;">
+          <img class="card-img-top"  style="height: 8rem;" src="./assets/teamprofile.jpg" alt="image of Quiz-game-repo" alt="Card image team">
+           <div class="card-body">
+             <h5 class="card-title">Profile-repo-4team</h5>
+             
+             <a href="https://github.com/PROGRAMER122223/Profile-repo-4Team" class="btn btn-primary-sm">Github</a>
+             <a href="https://watch.screencastify.com/v/qP9AKXxkbeGyLD1hj0c4" class="btn btn-primary-sm">Screencastify</a>
+           </div>
+       </div>   
+
+
+
+
+
+
+
+
+
+
+          
+
+  <!--********************************************************************************************************-->
            </div>    
   
     </section>
 
          <br>
-    
+  
+  
     <section class="contactme" id="contactme">
     
           <aside class="aside">
                 <h2>Contact me</h2> 
            </aside>
       
-        <nav id=navbar>
+        <nav class="navbar" id=navbar>
          <ul>
           <li class="item"><a href="tel:860-578-4180">860-578-4180</a></li>
           <li class="item"><a href="mailto:pratibha.indel@gmail.com">Email</a></li>
@@ -169,6 +209,7 @@
           
   
     </section>
+    </div>
 
     </main>
 </body>
